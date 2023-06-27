@@ -1,0 +1,302 @@
+/*! -----------------media-------------------- */
+
+
+@media screen and (min-width: 768px) {
+    .container {
+    max-width: 768px;
+    }
+
+    .header {
+        margin: 0;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+
+    .nav-list {
+    display: contents;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 16px;
+    list-style: none;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    display: flex;
+    margin: 0;
+    gap: 40px;
+    }
+
+    .address {
+    display: contents;
+    font-style: normal;
+    }
+
+    .logo-link {
+        margin-right: 120px;
+    }
+
+    .contacts-list {
+gap: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 0;
+    }
+
+    .contacts-link {
+        padding: 0;
+    }
+
+    .menu-toggle-op {
+    display: none;
+    }
+
+    .section-one {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/ofiice-tab.jpg);
+    }
+
+    .main-text {
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 36px;
+    max-width: 496px;
+    text-transform: none;
+    }
+
+    .section-features {
+    padding: 96px 0;
+    }
+
+    .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+    }
+
+    .feat-list {
+    width: calc((100% - 24px) / 2)
+    }
+
+    .titlle-list {
+    text-align-last: left;
+    }
+
+    .section-wawd {
+    display: none;
+    }
+    .personal-list {
+    width: 264px;
+    }
+    
+    .our-team-list {
+    gap: 64px 24px;
+    }
+    .customers-links {
+    width: calc((100% - 48px) / 3);
+    }
+    .customers-list {
+    gap: 72px 24px;
+    }
+    .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 108px;
+    
+    }
+    .foot-container {
+    align-items: flex-start;
+    justify-content: start;
+    margin-right: 24px;
+    margin-bottom: 72px;
+    height: 112px;
+    }
+    .footer{
+    height: 456px;
+    }
+    .svg-container {
+        align-items: flex-start;
+    }
+    .subscribe-text {
+    justify-content: flex-start;
+    } 
+    .mail-subscribe {
+        width: 264px;
+    }
+    .menu-container {
+        display: none;
+    }
+    .modal {
+        width: 408px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header {
+height: 76px;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin: 0 auto;
+}
+
+.logo-link {
+    margin-right: 76px;
+    padding: 0;
+    padding-left: 0;
+}
+
+   .nav {
+display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+    .nav-list {
+    display: contents;
+list-style-type: none;
+        font-weight: 500;
+        font-size: 16px;
+        list-style: none;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        display: flex;
+        margin: 0;
+        gap: 40px;
+    }
+
+    .address {
+    display: contents;
+    font-style: normal;
+    }
+
+    .contacts-list {
+        flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 40px;
+            margin-left: 332px;
+    }
+
+    .menu-toggle-op {
+        display: none;
+    }
+
+    .section-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/office.jpg);
+        padding: 188px 0;
+    }
+
+    .main-text {
+        font-size: 56px;
+        color: var(--text-white);
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        max-width: 496px;
+        margin-bottom: 48px;
+        text-transform: none;
+    }
+
+    .section-features {
+        padding: 120px 0;
+    }
+
+    .features {
+        margin-bottom: 8px;
+    }
+
+    .icon-feat {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        padding: 24px 100px;
+        background-color: var(--footer-color);
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .features-list {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .feat-list {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .titlle-list {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+
+    .section-wawd {
+        display: contents;
+    }
+
+    .wawd {
+    margin-bottom: 120px;
+    }
+
+    .section-team {
+    padding: 120px 0;
+    }
+
+    .personal-list {
+    width: calc((100% - 72px) / 4);
+    }
+
+    .our-team-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: row;
+    }
+
+    .sec-customers {
+    padding: 120px 0;
+}
+
+    .customers-list {
+    gap: 24px;
+    }
+    .customers-links {
+    width: calc((100% - 120px) / 6);
+    }
+    .footer {
+        padding: 100px 0;
+        height: 312px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .foot-container {
+        margin-bottom: 0;
+        margin-right: 120px;
+        margin-left: 12px;
+    }
+    .footer-container {
+        padding-left: 0;
+        align-items: baseline;
+    }
+    .svg-container {
+        margin-right: 80px;
+    }
+    .menu-container {
+        display: none;
+    }
+    .modal {
+        width: 408px;
+    }
+}
